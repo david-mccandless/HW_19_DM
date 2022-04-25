@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+</body>
+  <head>
+    <title>Homework 17 Solved</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img src="images/Onewheel Logo 1.png">
+      <ul>
+        <li>Customize</li>
+        <li>Compare</li>
+        <li>Dealers</li>
+        <li>Support</li>
+      </ul>
+    </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 25px;
+  text-align: center;
+  background-color: #ffffff;
+  border: solid 1px #ffffff;
+}
+
+#panel {
+  padding: 20px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 
+<div id="flip">Click here for a special discount!</div>
+<div id="panel">Enter Code "Spring2022" at checkout!</div>
+    <section class="heroImg">
+      <div class="content">
+        <img src="images/Screen Shot 2022-04-24 at 6.30.20 PM.png">
+      
+      
+      </div>
+    </section>
+    <h1 class="heading">Meet The Boards</h1>
+    <section class="flexContainer">
+      <div>
+        <img src="images/Ellipse 1 (1).png">
+        <h3>The Pint</h3>
+        <ul style="list-style: none;">
+        <li>6 - 8 Miles Per Charge
+        </li>
+        <li>18 MPH Max Speed
+        </li>
+      </ul>
+        <button>Meet The Pint</button>
+      </div>
+      <div>
+        <img src="images/Ellipse 1 (1).png">
+
+        <h3>The GT</h3>
+        <ul style="list-style: none;">
+        <li>20 - 32 Miles Per Charge
+        </li>
+        <li>29 MPH Max Speed
+        </li>
+      </ul>
+        <button>Meet The GT</button>
+      </div>
+      <div>
+        <img src="images/Ellipse 1 (1).png">
+        <h3>The Pint X</h3>
+        <ul style="list-style: none;">
+        <li>12 - 20 Miles Per Charge
+        </li>
+        <li>22 MPH Max Speed
+        </li>
+      </ul>
+        <button>Meet The Pint X</button>
+      </div>
+    </section>
+
+   
+    <footer>
+      <ul>
+        <li>About</li>
+        <li>Careers</li>
+        <li>Support</li>
+        <li>Become A Dealer</li>
+      </ul>
+    </footer>
+  </body>
+  <script src="js/index.js">
+
+  </script>
+</html>
